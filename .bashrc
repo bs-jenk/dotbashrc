@@ -446,3 +446,8 @@ _poetry_51f1a9952a75656a_complete()
 
 complete -o default -F _poetry_51f1a9952a75656a_complete poetry
 complete -o default -F _poetry_51f1a9952a75656a_complete /home/sam/poetry
+
+export GPG_TTY=$(tty)
+
+source <(kubectl completion bash)
+
